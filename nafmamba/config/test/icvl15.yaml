@@ -1,0 +1,10 @@
+name: "icvl_15"
+seed: ${seed}
+save_raw: false
+save_rgb: false
+save_rgb_crop: false
+save_labels: false
+idx_test: ""
+sample_stage_lambda: 0.0
+test_dir: "your_path"
+gt_dir: "your_path"

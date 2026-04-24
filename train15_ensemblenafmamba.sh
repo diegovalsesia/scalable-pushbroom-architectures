@@ -1,0 +1,1 @@
+python main.py trainer=ensemblenafmamba optim=ensemblenafmamba model=ensemblenafmamba gpu_ids=\'2\' data=icvl  data.bs=8 noise.params.sigma_max=15 trainer.params.num_sanity_val_steps=0 ckpt=your_path test=icvl15

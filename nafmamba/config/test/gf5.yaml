@@ -1,0 +1,10 @@
+name: "gf5"
+seed: ${seed}
+save_raw: true
+save_rgb: true
+save_rgb_crop: true
+save_labels: false
+idx_test: ""
+sample_stage_lambda: 0.0
+test_dir: "your_path"
+gt_dir: "your_path"

@@ -1,0 +1,54 @@
+name: Denoise
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.5
+  - torchvision=0.20
+  - pytorch-cuda=11.8
+  - cuda-toolkit=11.8
+  - cuda-nvcc=11.8
+  - numpy
+  - pillow
+  - pyyaml
+  - ninja
+  - packaging
+  - setuptools<75
+
+  - pip:
+      - hydra-core
+      - omegaconf
+      - pytorch-lightning==1.9.5
+      - lightning-bolts==0.7.0
+      - scipy
+      - h5py
+      - lmdb
+      - imageio
+      - einops
+      - timm
+      - transformers==4.37.2
+      - torchtyping
+      - typeguard
+      - scikit-image
+      - matplotlib
+      - opencv-python
+      - tqdm
+      - fvcore
+      - thop
+      - torchstat
+      - torchsummary
+
+      # Optional: fault injection experiments under faultDetect/
+      # - pytorchfi
+
+      # Optional: only needed by specific research models such as LAMU / ssumamba
+      # - nnunetv2
+      # - dynamic-network-architectures
+
+      # Optional: legacy utility scripts may require this
+      # - caffe

@@ -1,0 +1,1 @@
+python main.py trainer=ensemblenafmamba optim=ensemblenafmamba model=ensemblenafmamba gpu_ids=\'3\' data=icvl  data.bs=8  noise=mixture  trainer.params.num_sanity_val_steps=0 test=icvl_mix 

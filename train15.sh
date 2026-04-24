@@ -1,0 +1,1 @@
+python main.py trainer=ssrt optim=ssrt model=ssrt gpu_ids=\'1,3\' data=icvl  data.bs=2 noise.params.sigma_max=15 trainer.params.num_sanity_val_steps=0 model.params.channels=48 test=icvl15

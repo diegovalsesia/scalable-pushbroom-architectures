@@ -1,0 +1,1 @@
+python main.py trainer=simplenet optim=simplenet model=simplenet gpu_ids=\'2\' data=icvl  data.bs=24  noise.params.sigma_max=95  trainer.params.num_sanity_val_steps=0 test=icvl95 
